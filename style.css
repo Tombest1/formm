@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#ban{
+    width: 300px;
+    height: 40px;
+    background-color: indianred;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#form{
+    margin: auto;
+    padding-top: 20px;
+    background-color:honeydew;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#form input{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+
+#reg{
+    margin-left: 20px;
+    width: 100px;
+    height:30px ;
+    margin-top: 20px;
+}
+#login{
+    margin-left: 90px;
+}
+#log{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height:30px ;
+}
+
+
+body{
+   background-color: plum;
+
+}
+#sam{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#sam input{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#back{
+    background-image: url(images/ban.png);
+    background-size: cover;
+    width: 400px;
+    height: 560px;
+    float: left ;
+    margin-left: 133px;
+
+}
+#back img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+#blue{
+    width: 400px;
+    height: 560px;
+    background-color: rgba(0,0,255,50%);
+
+}
+#blue p{
+    color: white;
+  
+}
+#blue h1{
+    color: white;
+    padding-top:130px ;
+  
+
+}
+#chat{
+    margin-top: 10px;
+    margin-right: 0px;
+    float:right;
+    width: 70px;
+}
+#form #email{
+    width: 105px;
+}
+#form #phone{
+    width: 105px;
+}
+
+
+@media (max-width: 1350px){
+    #form{
+        margin-left: 533px;
+        
+    }
+    #ban{
+        margin-left: 533px;
+
+    }
+    #chat{
+        margin-right: 0px;
+        
+    }
+}
+
+@media (max-width: 950px){
+    #back{
+        margin-left: 100px;
+    }
+    #form{
+        margin-left: 500px;
+        
+    }
+    #ban{
+        margin-left: 500px;
+
+    }
+
+   
+}
+
+@media (max-width: 900px){
+    #back{
+        margin-left: 70px;
+    }
+    #form{
+        margin-left: 470px;
+        
+    }
+    #ban{
+        margin-left: 470px;
+
+    }
+    
+    
+
+}
+
+@media (max-width: 790px){
+    #back{
+        margin-left: 20px;
+    }
+    #form{
+        margin-left: 420px;
+        
+    }
+    #ban{
+        margin-left: 420px;
+
+    }
+    
+    
+
+}
+
+@media (max-width: 750px){
+  
+    #form{
+       margin-left: 20px;
+
+        
+    }
+    
+    #ban{
+        margin-left: 20px;
+
+    }
+    
+    
+    #chat{
+        margin-top: 700px;
+        margin-right: 0px;
+        width: 70px;
+    }
+    
+    
+
+}
+
+@media (max-width: 600px){
+  
+    #form{
+       margin-left: 0px;
+        
+    }
+    
+    #ban{
+        margin-left: 0px;
+
+    }
+    
+    #chat{
+        margin-top: 700px;
+        margin-right: 0px;
+        width: 70px;
+    }
+    #back{
+        display: none;
+    }
+    
+    
+
+}
+
